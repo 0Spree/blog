@@ -1,0 +1,73 @@
+baseurl = "http://www.example.com" # Hostname (and path) to the root.
+title = "Andreas Kousholt" # Site title.
+theme = "coder-portfolio" # Set the theme.
+languagecode = "en" # The site’s language code used to generate RSS.
+defaultcontentlanguage = "en" # The default content language.
+
+paginate = 20 # Default number of pages per page in pagination.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+
+[params] # theme parameters
+    author = "Andreas Kousholt" # Author's name.
+    info = "WEBDEVELOPER AND ENGINEER" # Author's job title or info.
+    description = "Andreas Kousholt's personal portfolio website" # Site description.
+    keywords = "blog,developer,personal,projects,portfolio" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = true
+    hideCopyright = true
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    snsShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/naro143/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "post"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
+[[menu.main]]
+    name = "About Me"
+    weight = 3
+    url = "about"
+[[menu.main]]
+    name = "Contact"
+    weight = 2
+    url = "about"
