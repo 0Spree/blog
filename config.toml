@@ -44,15 +44,15 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 [[params.social]]
     name = "Github"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://github.com/Madbr0/"
 [[params.social]]
     name = "Twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://twitter.com/AndreasKoushol1/"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.linkedin.com/in/andreas-kousholt-a3b77917a/"
 
 # Menu links
 [[menu.main]]
@@ -64,10 +64,10 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     weight = 2
     url = "about"
 [[menu.main]]
-    name = "About Me"
+    name = "Projects"
     weight = 3
-    url = "about"
+    url = "projects"
 [[menu.main]]
     name = "Contact"
-    weight = 2
-    url = "about"
+    weight = 4
+    url = "contact"
