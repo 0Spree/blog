@@ -1,0 +1,12 @@
+<footer class="footer">
+  <section class="container">
+    {{ if .Site.Params.snsShare }}
+    {{ end }}
+    {{ with .Site.Params.footercontent }}
+      <p>{{.}}</p>
+    {{ end }}
+    
+
+  </section>
+</footer>
+
